@@ -46,17 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+html, body{
+	font-family: 'Poppins', sans-serif;
+}
 /* O código acima reseta todo o css já presente nos navegadores*/
 
 .logomarca{
     width: 135px;
     height: 76px;
     background: url("imagens/logo_size.jpg") no-repeat 0 0;
-    display: block;
+	display: block;
 }
 
 .logo{
-    float: left;
+	float: left;
+	padding-top: .5rem;
 }
 
 .menu{
@@ -64,8 +69,22 @@ table {
 }
 
 .menu_li{
-    float: left;
+	float: left;
+	margin: 1rem 1rem;
 }
+
+.menu_link{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.btn a{
+	color: white;
+	font-size: 1.2rem;
+	text-decoration: none;
+}
+
 
 .clear{
     clear: both;
@@ -74,4 +93,32 @@ table {
 .center{
    width: 1110px;
    margin: 0 auto;
+}
+
+.apresentacao{
+	background: rgb(255,12,12);
+	background: linear-gradient(180deg, rgba(255,12,12,1) 19%, rgba(255,183,183,1) 70%, rgba(255,255,255,1) 92%);
+	padding-top: 3rem;
+}
+
+.bt-sing{
+	border: 1px solid rgb(255, 255, 255);
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	font-weight: 600;
+	padding: .3rem .3rem;
+	margin-left: 3rem;
+}
+
+.bt-singup{
+	background: black;
+	color: white;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	font-weight: 600;
+	padding: .3rem .3rem;
 }
