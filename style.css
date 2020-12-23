@@ -122,3 +122,56 @@ html, body{
 	font-weight: 600;
 	padding: .3rem .3rem;
 }
+
+.apresentacao_box{
+	padding-top: 5rem;
+}
+
+.apresentacao_descricao{
+	width: 40%;
+	float: left;
+	margin-left: 10rem;
+}
+
+.apresentacao_video{
+	width: 45%;
+	float: left;
+	margin-left: 2rem;
+
+}
+
+.apresentacao_video img{
+	width: auto;
+	height: auto;
+	max-width: 500px;
+	max-height: 350px;
+
+}
+
+
+.title-apresentacao{
+	color: rgb(29, 29, 29);
+	font-size: 2.5rem;
+	line-height: 48px;
+}
+
+.title-apresentacao strong{
+	font-weight: 600;
+}
+
+.descricao-apresentacao{
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin: 2rem 0; 
+}
+
+.btn-red{
+	background: red;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 12px 30px;
+	display: inline-block /*O botão estava por cima, com esse código ele desceu*/
+}
