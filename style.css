@@ -424,8 +424,34 @@ html, body{
 	margin: 2rem 8rem;
 }
 
-.teste{
-	width: 1400px;
-	height: 400px;
-	background: blue;
+.post{
+	padding-top: 100px;
+}
+
+.post-box{
+	width: 33%;
+	float: left;
+}
+
+.post-box img{
+	width: 350px;
+	height: 250px;
+	border-radius: 5px;
+	padding-left: 1.5rem;
+}
+
+.post_title{
+	color: black;
+	font-size: 22px;
+	line-height: 28px;
+	font-weight: 600;
+	display: block;
+	padding: .5rem 0 0 1.5rem;
+}
+
+.post_subtitle{
+	color: rgb(83, 83, 83);
+	font-size: 16px;
+	line-height: 18px;
+	padding: .5rem 0 0 1.5rem;
 }
