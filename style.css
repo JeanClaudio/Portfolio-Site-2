@@ -455,3 +455,57 @@ html, body{
 	line-height: 18px;
 	padding: .5rem 0 0 1.5rem;
 }
+
+.newslatter{
+	padding-top: 3rem;
+}
+
+.newslatter_box{
+	background: url("imagens/vermelho.png") 0 0 no-repeat;
+	margin: 0 0 0 4rem;
+	height: 300px;
+}
+
+.newslatter_wrapper{
+	padding: 50px;
+}
+
+.newslatter_text{
+	color: white;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.newslatter_form{
+	border: 1px solid white;
+}
+
+.newslatter_input{
+	background: none;
+	border: none;
+	color: white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: white;
+	font-size: 16px;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+	color: white;
+	font-size: 16px;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+	color: white;
+	font-size: 16px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+	color: white;
+	font-size: 16px;
+  }
+
+  .newslatter_submit{
+	  width: 34px;
+	  height: 34px;
+	  background: url("imagens/msg.jpg") 0 0 no-repeat;
+	  border: none;
+  }
